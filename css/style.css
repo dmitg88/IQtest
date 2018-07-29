@@ -1,0 +1,270 @@
+body{
+	background-image: url(../images/background.png);
+    width: 100%;
+    min-width:960px;
+	max-width:1024px;
+}
+	
+
+.logo {   
+  position: relative;
+  left: 1px;   
+}
+
+
+
+.phone_top {
+  font-size: 18px;
+  font-family: "Europe";
+  color: rgb(235, 80, 23);
+  line-height: 1.111;
+  text-align: left;
+  position: absolute;
+  left: 840px;
+  top: 40px;
+  width: 177px;
+  height: 36px;
+  z-index: 46;
+}
+
+
+.top-menu{
+
+  position: relative; 
+  border: 1px solid #F0F0F0;
+  left: 0px;
+  top: 10px;
+  
+  width: 1006px;
+  height: 40px;
+  z-index: 49;
+}
+
+.top-menu td {	
+	
+	padding: 10px 30px;
+	border-left: 1px solid rgb(235, 80, 23);
+	margin: 0;
+
+	font-size: 14px;
+	font-family: "Arial";
+	color: rgb(255, 255, 255);
+	line-height: 1.488;
+	text-align: center; 
+	background-color: rgb(35, 31, 32);
+}
+
+.top-menu a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+.top-menu td.active {
+	background-color: rgb(235, 80, 23);	
+}
+
+.top-menu td.first {
+	border-left: none;
+}
+
+.top-menu td:hover{
+	background-color: rgb(250, 200, 140); 
+}
+
+.breadcrumbs {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(35, 31, 32);
+  text-align: left;
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+
+.breadcrumbs a {
+	color: rgb(35, 31, 32);
+	text-decoration: none;
+	border-bottom: 1px solid #000;
+    
+}
+
+.bottom{
+  border: 1px solid #F0F0F0;
+  background-color: rgb(35, 31, 32);
+  position: fixed;  
+  bottom: 0px;
+  width: 1005px;
+  height: 60px;
+  z-index: 49;	
+}
+
+.bottom-menu{
+ position: relative;
+ left: 0px;
+ width: 700px; 
+
+
+}
+
+.bottom-menu td {	
+	padding: 10px 10px;	
+	margin: 0;
+	text-align: center; 	
+}
+
+.bottom-menu a {
+	font-size: 12px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+	text-decoration: none;
+	border-bottom: 1px solid rgb(255, 255, 255);
+    
+}
+
+
+.calc{	
+	background-color: rgba(234, 239, 243, 0.5);    
+	position: relative;
+	left: 20px;
+	top: 60px;  
+	width: 650px;
+	height: 380px; 
+}
+
+.calc-logo{
+  font-size: 30px;
+  font-family: "Arial";
+  color: rgb(235, 80, 23);
+  position: relative;
+  left: 95px;
+  top: 25px;	
+}
+
+.calc-table{
+	
+	/* background-color: #F7799B;  */
+	position: relative;
+	top: 30px;
+	left: 0px;
+	width: 550px;
+	height: 230px;
+		
+}
+
+.calc-table td.calc-text{
+  font-family: "Arial";
+  font-size: 14px;
+  color: rgb(0, 0, 0);  
+  text-align: right;
+  padding-right: 25px;
+}
+
+.input-box {
+	width: 120px;
+	height: 20px;
+	
+}
+
+
+.slidecontainer {
+    width: 100%;
+  position: relative;
+  top: 2px;  	
+}
+
+
+.slider {
+    -webkit-appearance: none;  
+    appearance: none;
+    width: 100%; 
+    height: 7px;		
+    background: #000000;
+	border: 2px solid #FFFFFF;
+	border-radius: 15px;
+	box-shadow: 0 0 4px;
+
+}
+
+
+.slider:hover {
+    opacity: 1; 
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 7px; /* Set a specific slider handle width */
+    height: 7px; /* Slider handle height */
+	border-radius: 7px;
+    background: #FFFFFF; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider-text {
+  font-size: 10px;
+  font-family: "Verdana";
+  color: rgb(103, 103, 103);
+  font-style: italic;
+  
+  position: relative;
+  bottom: 2px;
+   
+  
+}
+
+
+.result-table {
+	/* background-color: #F7799B;  */
+	position: relative;
+	top: 40px;
+	left: 0px;
+	width: 350px;
+	height: 50px;
+	
+}
+
+.input-button {	
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(195, 196, 196);
+  border-radius: 7px;
+  background-image: -moz-linear-gradient( 90deg, rgb(124,196,0) 0%, rgb(175,243,0) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(124,196,0) 0%, rgb(175,243,0) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(124,196,0) 0%, rgb(175,243,0) 100%);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.19);
+  position: relative;
+  left: 25px;
+  width: 100px;
+  height: 30px;
+  
+  
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(57, 83, 6);
+  font-weight: bold;
+	
+}
+
+#result-text {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(57, 83, 6);
+  font-weight: bold;	
+  
+  position: relative;
+  right: 0px;
+}
+
+#result {
+  font-size: 14px;
+  font-family: "Arial";
+  position: relative;
+  left: 0px;
+
+	
+}
+
+
+
+
