@@ -9,7 +9,8 @@ max-width: 1024px;
 
 .logo {   
   position: relative;
-  left: 1px;   
+  left: 1px;
+  display: inline-block;
 }
 
 
@@ -20,12 +21,12 @@ max-width: 1024px;
   color: rgb(235, 80, 23);
   line-height: 1.111;
   text-align: left;
-  position: absolute;
-  left: 840px;
-  top: 40px;
+  position: relative;
+  left: 640px;
+  display: inline-block;
   width: 177px;
   height: 36px;
-  z-index: 46;
+  /* z-index: 46; */
 }
 
 
