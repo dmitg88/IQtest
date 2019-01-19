@@ -1,8 +1,9 @@
 body{
-	background-image: url(../images/background.png);
-    width: 100%;
-    min-width:960px;
-	max-width:1024px;
+background-image: url(../images/background.png);
+ /* width: 100%; */
+margin: auto;
+min-width: 960px;
+max-width: 1024px;
 }
 	
 
