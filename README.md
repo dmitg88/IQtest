@@ -1,2 +1,0 @@
-# IQtest
--Test project.
